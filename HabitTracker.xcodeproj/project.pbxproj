@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		162E70B82ACD368B00CD2149 /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70B72ACD368B00CD2149 /* HabitTrackerApp.swift */; };
-		162E70BA2ACD368B00CD2149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70B92ACD368B00CD2149 /* ContentView.swift */; };
+		162E70BA2ACD368B00CD2149 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70B92ACD368B00CD2149 /* MainView.swift */; };
 		162E70BC2ACD368B00CD2149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162E70BB2ACD368B00CD2149 /* Assets.xcassets */; };
 		162E70BF2ACD368B00CD2149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162E70BE2ACD368B00CD2149 /* Preview Assets.xcassets */; };
 		162E70C92ACD368B00CD2149 /* HabitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70C82ACD368B00CD2149 /* HabitTrackerTests.swift */; };
 		162E70D32ACD368B00CD2149 /* HabitTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70D22ACD368B00CD2149 /* HabitTrackerUITests.swift */; };
 		162E70D52ACD368B00CD2149 /* HabitTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70D42ACD368B00CD2149 /* HabitTrackerUITestsLaunchTests.swift */; };
+		162E70E22ACD37E600CD2149 /* AddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70E12ACD37E600CD2149 /* AddSheetView.swift */; };
+		162E70E42ACD450300CD2149 /* RecommendationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E70E32ACD450300CD2149 /* RecommendationSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		162E70B42ACD368B00CD2149 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		162E70B72ACD368B00CD2149 /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
-		162E70B92ACD368B00CD2149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		162E70B92ACD368B00CD2149 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		162E70BB2ACD368B00CD2149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		162E70BE2ACD368B00CD2149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		162E70C42ACD368B00CD2149 /* HabitTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		162E70CE2ACD368B00CD2149 /* HabitTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		162E70D22ACD368B00CD2149 /* HabitTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerUITests.swift; sourceTree = "<group>"; };
 		162E70D42ACD368B00CD2149 /* HabitTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		162E70E12ACD37E600CD2149 /* AddSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheetView.swift; sourceTree = "<group>"; };
+		162E70E32ACD450300CD2149 /* RecommendationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				162E70B72ACD368B00CD2149 /* HabitTrackerApp.swift */,
-				162E70B92ACD368B00CD2149 /* ContentView.swift */,
+				162E70B92ACD368B00CD2149 /* MainView.swift */,
+				162E70E32ACD450300CD2149 /* RecommendationSheetView.swift */,
+				162E70E12ACD37E600CD2149 /* AddSheetView.swift */,
 				162E70BB2ACD368B00CD2149 /* Assets.xcassets */,
 				162E70BD2ACD368B00CD2149 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162E70BA2ACD368B00CD2149 /* ContentView.swift in Sources */,
+				162E70BA2ACD368B00CD2149 /* MainView.swift in Sources */,
 				162E70B82ACD368B00CD2149 /* HabitTrackerApp.swift in Sources */,
+				162E70E42ACD450300CD2149 /* RecommendationSheetView.swift in Sources */,
+				162E70E22ACD37E600CD2149 /* AddSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HabitTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = XBKD4H3QUZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,6 +438,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HabitTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = XBKD4H3QUZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
